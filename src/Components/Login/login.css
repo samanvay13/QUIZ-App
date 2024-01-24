@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(90deg, #27123a 30%, #02031a 100%);
+}
+
+.login-container {
+    margin: 0;
+    padding: 0;
+}
+
+.card-container {
+    margin-top: 130px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 600px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+.header-welcome {
+    text-align: justify;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-bottom: 80px;
+    max-width: auto;
+    color: #fff;
+}
+
+.login-card {
+    margin-top: 0px;
+    max-width: 30%;
+    margin-left: 32%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-width: 0.5px;
+    padding: 20px;
+}
+
+.email-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.email-input label {
+    margin-top: 18px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.email-input input {
+    max-width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.email-input input[type="email"]:focus {
+    border-color: #3498db;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.error-message {
+    color: #ff0000; 
+    font-size: 11px; 
+    margin-top: 5px;
+    text-align: left;
+  }
+
+.submit-btn {
+    text-align: left;
+    margin-top: 25px;
+}
+
+.submit-btn input[type="button"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(100%);
+}
+
+.submit-btn input[type="button"]:hover {
+    background-color: #2b2b30;
+}

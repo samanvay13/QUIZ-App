@@ -1,0 +1,144 @@
+.quiz-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 900px;
+  margin: 20px;
+  padding: 10px;
+  padding-top: 0px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-page-header {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: -10px;
+  margin-bottom: 60px;
+}
+
+.questions {
+  font-weight: bold;
+}
+
+.choices {
+  margin-right: 220px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+}
+  
+.question-navigation-container {
+  margin-bottom: 20px;
+  margin-left: 35%;
+}
+  
+.question-navigation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+  gap: 10px;
+}
+  
+.question-navigation-grid button {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+.question-navigation-grid button.answered-question {
+  background-color: rgb(140, 216, 117);
+  color: white;
+}
+  
+.question-navigation-grid button.current-question {
+  background-color: #3498db;
+  color: white;
+}  
+  
+.question-info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-container {
+  background-color: white;
+  text-align: start;
+  margin-left: 20%;
+  margin-top: 5%;
+  max-width: 60%;
+  padding: 20px;
+  padding-left: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-container p {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.question-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 40px;
+}
+
+.question-container li {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.question-container li.selected-option {
+  background-color: #3498db;
+  color: white;
+}
+
+.question-container button {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.previous-btn {
+  margin-left: 82%;
+}
+
+.submit-button {
+  display: flex;
+  margin-top: 10%;
+  margin-right: 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submit-button p {
+  font-size: 18px;
+}
+
+.submit-button button {
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #02e267;
+  color: white;
+}
+
+.submit-button button:hover {
+  background-color: #0ec579;
+}
+
+.timer {
+  color: red;
+  margin-left: 2%;
+  font-weight: bold;
+}

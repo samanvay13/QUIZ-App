@@ -1,0 +1,131 @@
+.quiz-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 900px;
+    margin: 20px;
+    padding: 10px;
+    padding-top: 0px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.question-page-header {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+  
+  .question-navigation-container {
+    margin-bottom: 20px;
+  }
+  
+  .question-navigation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+    gap: 10px;
+  }
+  
+.question-navigation-grid button {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.question-navigation-grid button.answered-question {
+    background-color: rgb(140, 216, 117);
+    color: white;
+  }
+  
+  .question-navigation-grid button.current-question {
+    background-color: #3498db;
+    color: white;
+  }  
+  
+  .question-info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .question-container {
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 5%;
+    max-width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-container p {
+    margin-bottom: 10px;
+  }
+  
+  .question-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .question-container li {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .question-container li.selected-option {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .question-container button {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .previous-btn {
+    margin-left: 85%;
+  }
+
+  .exit-button {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .exit-button p {
+    font-size: 18px;
+  }
+  
+  .exit-button button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e22f02;
+    color: white;
+  }
+  
+  .exit-button button:hover {
+    background-color: #b33515;
+  }
+
+  .timer {
+    color: red;
+    margin-left: 2%;
+    font-weight: bold;
+  }
+  
