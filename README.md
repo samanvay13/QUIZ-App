@@ -4,7 +4,7 @@ This project is a ReactJS-based quiz application.
 
 ## Website Link
 
-The live version of the quiz application can be accessed at [BrainBurst.io](https://quiz-app-one-ashen.vercel.app/).
+The live version of the quiz application can be accessed at [BrainBurst.io](https://quiz-seven-omega.vercel.app/).
 
 ## Table of Contents
 
