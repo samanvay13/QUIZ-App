@@ -42,7 +42,7 @@ export const Login = () => {
     <div className="login-container">
       <div className="card-container">
         <div className="header-welcome">
-          <h1>BrainBurst Quiz</h1>
+          <h1>BrainBurst.io</h1>
         </div>
         <div className="login-card">
           <form className="email-input">
