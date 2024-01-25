@@ -1,6 +1,10 @@
 # BrainBurst.io
 
-This project is a ReactJS-based quiz application designed for the Full Stack Developer Intern position at CausalFunnel.
+This project is a ReactJS-based quiz application.
+
+## Website Link
+
+The live version of the quiz application can be accessed at [BrainBurst.io](https://quiz-seven-omega.vercel.app/).
 
 ## Table of Contents
 
